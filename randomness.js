@@ -28,6 +28,6 @@ console.log(Math.random() * 21 + 1);
 }
 randomNumber()
 function randomLetter() {
-console.log(alphabet[Math.floor(Math.random) * (alphabet.length)]);
+console.log(alphabet[Math.floor(Math.random()*alphabet.length)]);
 }
 randomLetter()
